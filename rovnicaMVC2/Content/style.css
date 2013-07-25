@@ -1,0 +1,798 @@
+body 
+{
+margin:0; 
+padding:0;
+background-color:#ccc;
+font-family: 'Palatino Linotype',Palatino,'Zapf Calligraphic','Book Antiqua',Georgia,serif;
+font-style:italic;
+}
+ul
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+img{border:0;}
+
+#wrapper
+{
+width:1440px;
+height:880px;
+margin:0 auto;
+
+background: url(img/bg2.jpg) repeat left top;
+padding-top:20px;
+
+}
+
+
+
+#wrapper #header
+{
+    height:75px;
+    /*background: url(img/bg_top.jpg) repeat-x -170px top;*/
+    /*background: url(img/top_pane.png) no-repeat 0px top;*/
+    background: url(img/header1.png) no-repeat 0px top;
+    width: 1014px;
+    margin: 0px auto;
+    position:relative;
+}
+
+#wrapper #header .title
+{
+    background: url(img/main_title.png) no-repeat 16px 10px;
+    position:absolute;
+    width:400px;
+    height:75px;
+}
+#wrapper #header .subtitle
+{
+    background: url(img/main_subtitle.png) no-repeat 16px 10px;
+    position:absolute;
+    width:400px;
+    height:40px;
+    top:65px;
+}
+    
+#wrapper #body
+{
+    height:500px;
+    /*background: url(img/bg.jpg) repeat left top;*/
+    position:relative;
+
+    -webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+#wrapper #body #left_menu
+{
+    height:560px;
+    width:288px;
+    /*background: url(img/left_menu.png) no-repeat left top;*/
+    background: url(img/left_pane.png) no-repeat left top;
+    position:absolute;
+    left:50px;
+    top:73px;
+    z-index:3;
+}
+
+#wrapper #left_menu ul
+{
+    list-style:none;
+    margin:20px 0 0 20px;
+    padding:0;
+ 
+}
+
+#wrapper #left_menu ul li a
+{
+      
+      display:block;
+
+       
+    color: #999;
+    font-style: normal;
+    font-size: 24px;
+    font-family: arial;
+    text-decoration: none;
+    line-height:34px;
+       
+}
+#wrapper #left_menu ul li a:hover
+{
+    text-decoration:underline;
+}
+
+#wrapper #left_menu ul li a.lm_all
+{
+    color: #FC6;
+    margin-bottom: 10px;
+}
+
+#wrapper #left_menu ul li #shopping_chart
+{
+        color: #FC6;
+    margin-top: 130px;
+    padding-left:40px;
+    background:url(img/shopping_chart2.png) no-repeat left -2px;
+}
+
+/*  Левое меню   */
+/*#wrapper #left_menu ul li a.lm_gallery
+{
+    height:50px;
+    width:170px;
+    left:40px;
+    top:25px;
+    background-image:url(img/lm_gallery.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_gallery:hover
+{
+    background-image:url(img/lm_gallery_hover.png);
+}
+#wrapper #left_menu ul li a.lm_coat
+{
+    height:50px;
+    width:140px;
+    left:120px;
+    top:70px;
+    background-image:url(img/lm_coat.png);
+    z-index:15;
+}
+#wrapper #left_menu ul li a.lm_coat:hover
+{
+    background-image:url(img/lm_coat_hover.png);
+}
+
+#wrapper #left_menu ul li a.lm_cardigan
+{
+    height:70px;
+    width:180px;
+    left:60px;
+    top:100px;
+    background-image:url(img/lm_cardigan.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_cardigan:hover
+{
+    background-image:url(img/lm_cardigan_hover.png);
+}
+#wrapper #left_menu ul li a.lm_kofta_sviter
+{
+    height:50px;
+    width:250px;
+    left:5px;
+    top:162px;
+    background-image:url(img/lm_kofta_sviter.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_kofta_sviter:hover
+{
+    background-image:url(img/lm_kofta_sviter_hover.png);
+}
+
+#wrapper #left_menu ul li a.lm_palantin_nakidka
+{
+    height:70px;
+    width:330px;
+    left:20px;
+    top:205px;
+    background-image:url(img/lm_palantin_nakidka.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_palantin_nakidka:hover
+{                        
+    background-image:url(img/lm_palantin_nakidka_hover.png);
+}
+
+#wrapper #left_menu ul li a.lm_platya
+{
+    height:60px;
+    width:140px;
+    left:50px;
+    top:255px;
+    background-image:url(img/lm_platya.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_platya:hover
+{                        
+    background-image:url(img/lm_platya_hover.png);
+}
+
+#wrapper #left_menu ul li a.lm_yubki
+{
+    height:50px;
+    width:100px;
+    left:35px;
+    top:300px;
+    background-image:url(img/lm_yubki.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_yubki:hover
+{                        
+    background-image:url(lm_yubki_hover.png);
+}
+
+#wrapper #left_menu ul li a.lm_accessories
+{
+    height:50px;
+    width:185px;
+    left:35px;
+    top:360px;
+    background-image:url(img/lm_accessories.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_accessories:hover
+{                        
+    background-image:url(img/lm_accessories_hover.png);
+}
+#wrapper #left_menu ul li a.lm_for_men
+{
+    height:60px;
+    width:215px;
+    left:17px;
+    top:400px;
+    background-image:url(img/lm_for_men.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_for_men:hover
+{                        
+    background-image:url(img/lm_for_men_hover.png);
+}
+
+#wrapper #left_menu ul li a.lm_availible
+{
+    height:50px;
+    width:170px;
+    left:60px;
+    top:470px;
+    background-image:url(img/lm_availible.png);
+    z-index:10;
+}
+#wrapper #left_menu ul li a.lm_availible:hover
+{                        
+    background-image:url(img/lm_availible_hover.png);
+}*/
+
+/*  **********   */
+#wrapper #body #main_content
+{
+     height:610px;
+    width:842px;
+    /*background: url(img/main_panel.png) no-repeat left top;*/
+    background: url(img/main_pane.png) no-repeat left top;
+    position:absolute;
+    left:385px;
+    top:73px;
+    z-index:1;
+    
+   
+}
+
+
+
+#wrapper #menu
+{
+    width:500px;
+    
+
+    position:absolute;
+    left:800px;
+    top:-80px;
+    z-index:4;
+}
+
+#wrapper #menu ul
+{
+    list-style:none;
+    height:30px;
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-weight:bold;
+    
+}
+#wrapper #menu ul li
+{
+    float:left;
+    margin-right:40px;
+    
+}
+#wrapper #menu ul li a
+{
+    color:#fc6;
+    line-height: 77px;
+}
+#wrapper #menu ul li a:hover
+{
+    color:#960;
+}
+#wrapper #menu ul li.selected a
+{
+    color:#960;
+}
+
+#wrapper #menu #menu_additional
+{
+    margin-left:244px;
+}
+
+/*#wrapper #shopping_chart
+{
+    height:160px;
+    width:165px;
+    background: url(img/shopping_chart.png) no-repeat left top;
+    position:absolute;
+    left:230px;
+    top:330px;
+    z-index:2;
+}
+#wrapper #shopping_chart:hover
+{
+    background-image: url(img/shopping_chart_hover.png);
+}*/
+
+
+
+/************************************************* Категория **************************************/
+.category .current_title
+{
+    width:288px;
+    height:62px;
+    background: url(img/current_title_collapsed.png) no-repeat left top;
+    
+    
+    margin:-58px 0 0 auto;
+}
+
+.category .current_title.expanded
+{
+    width:623px;
+    background: url(img/current_title_expanded.png) no-repeat left top;
+}
+
+.category .current_title .title
+{
+   font-size: 24px;
+    color: #ffcc66;
+    width: 172px;
+    float: left;
+    height: 62px;
+    line-height: 62px;
+    font-family: arial;
+    padding-left: 20px;
+}
+
+.category .searchForm
+{
+    display:none;
+    width: 330px;
+    float: left;
+    height: 62px;
+    line-height: 62px;
+    color: #FC6;
+}
+
+.category  .current_title.expanded .searchForm
+{
+    display:block;
+}
+
+.category .searchForm #PriceFromStr,
+.category .searchForm #PriceToStr
+{
+	width:80px;
+	margin:0 10px;
+}
+
+.category .searchForm .search_button
+{
+    background: url(img/search_button.png) no-repeat left 9px;
+    border:none;
+    width:25px;
+    line-height:42px;
+    cursor:pointer;
+}
+
+.category .current_title .expand_collapse
+{
+    width:96px;
+    height:62px;
+    background: url(img/search_expand_button.png) no-repeat right top;
+    float:right;
+    line-height: 62px;
+
+    text-indent: 30px;
+    cursor:pointer;
+}
+
+.categoryItems
+{
+    margin: 40px -70px 0 70px;
+}
+
+/* ************* */
+
+
+.items
+{
+    margin-top:0px;
+    margin-left:0px;
+    
+}
+
+.items li
+{
+    float:left;
+    margin-right:70px;
+    font-size:20px;
+}
+
+.items li:last-child
+{
+	margin-right:0;
+}
+
+
+.items li.separator
+{
+    clear:both;
+    height:30px;
+    width:100%;
+    margin-right:0;
+}
+
+
+.items li .itemPicture
+
+{
+    width:186px; height:186px; background-color:#fff; border:1px solid #000;
+
+    -webkit-border-radius: 10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+     display:block;
+
+}
+
+.items li a.title
+{
+    text-decoration:none;
+    color:#000;
+    margin-right:10px;
+}
+
+.items li .price
+{
+    text-align:right;
+    font-size: 14px;
+}
+
+/**************************************************** страница товара ***************************************/
+.itemData
+{
+	position:relative;
+	margin-right: 70px;
+	margin-left: 70px;
+	font-style: normal;
+}
+.itemData .itemTitle
+{
+	clear:both;
+	font-size:24px;
+	margin: 0 0 5px 0;
+	font-style: italic;
+}
+
+.itemData .descriptionCommon
+{
+	text-indent: 40px;
+	text-align: justify;
+	margin: 0 0 10px 0;
+	
+	margin-top: 12px;
+	margin-bottom: 22px;
+}
+.itemData .descriptionMaterial
+{
+	margin: 0 0 10px 0;
+}
+
+.itemData .price
+{
+    	margin: 10px 0 0  0;
+    	
+}
+.itemData .priceOpt
+{
+	
+	
+	
+}
+.itemData .priceOptHelp
+{
+	display:none;
+	width:200px;
+	border:1px solid #000;
+	padding:10px;
+	
+	position:relative;
+	left:50px;
+	background-color:#fff;
+}
+
+
+
+.itemData .color
+{
+	display:inline-block;
+	padding-right:20px;
+	
+}
+
+.itemData .color select,
+.itemData .size select
+{
+	min-width:100px;
+	max-width:200px;
+}
+
+
+/*Есть или нет в наличии*/
+.itemData .status,
+.items li .status
+{
+	display:inline-block;
+	width:20px;
+}
+/* В наличии*/
+.itemData .status.s1,
+.items li .status.s1
+{
+	/*background-color:#0a0;*/
+	background: url(img/item_status_star_green.png) no-repeat right top;
+}
+/* нет в наличии */
+.itemData .status.s2,
+.items li .status.s2
+{
+	/*background-color:#a00;*/
+	 background: url(img/item_status_star_gold.png) no-repeat right top;
+}
+
+.itemData .btn_purchase
+{
+    cursor:pointer;
+	width:130px;
+	height:25px;
+	border:1px solid #000;
+	color:#fff;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius:5px;
+	border-radius: 5px;
+	
+	margin:-20px 0 0 200px;
+	text-align:center;
+	
+	 background: url(img/button3.png) no-repeat right top;
+}
+.itemData .btn_purchase:hover
+{
+    background: url(img/button3_blured.png) no-repeat right top;
+}
+
+
+ul.items li a.highslide div
+{
+	cursor:url(/Content/img/highslide/zoomin.cur), pointer;
+	
+}
+
+.itemsContainer
+{
+    height:210px;
+	/*height:260px; для scroll auto - с полосой прокрутки - потом ее убрали*/
+	width:704px;
+	margin:40px auto 0px auto;
+	
+
+}
+
+
+
+#purchaseAdded
+{
+	width:200px;
+	height:70px;
+	background-color:#fff;
+	border:1px solid #000;
+	padding:20px;
+	
+	position:absolute;
+	top: 200px;
+	left: 270px;
+	z-index: 1;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius:5px;
+	border-radius: 5px;
+	
+}
+
+#purchaseAdded .btn_close
+{
+    text-align:center;
+    margin-top:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/*************************	.slideShow на странице товара*******************/
+.slideShow
+{
+	
+	position:relative;
+}
+
+.slideShow .slideShowRotator
+{
+	/*overflow:auto;*/
+	overflow:hidden;
+	height:100%;
+}
+
+.slideShow .slideShowLeft
+{
+	position:absolute;
+	top:40px;
+	left:-62px;
+	width:60px;
+	height:110px;
+	background:url(img/slideshow_arrow_left.png) no-repeat center center;
+	cursor:pointer;
+}
+.slideShow .slideShowRight
+{
+	position:absolute;
+	top:40px;
+	right:-62px;
+	width:60px;
+	height:110px;
+	background:url(img/slideshow_arrow_right.png) no-repeat center center;
+	cursor:pointer;
+}
+
+.slideShow .slideShowLeft:hover
+{
+    background:url(img/slideshow_arrow_left_hover.png) no-repeat center center;
+}
+
+.slideShow .slideShowRight:hover
+{
+    background:url(img/slideshow_arrow_right_hover.png) no-repeat center center;
+}
+
+
+/************************************************* pager **************************************/
+
+.pager
+{
+	clear:both;
+	position: absolute;
+	bottom: 20px;
+	right: 60px;
+	font-size: 20px;
+}
+.pager ul
+{
+}
+.pager ul li
+{
+	float:left;
+	margin-left:5px;
+}
+.pager ul li a
+{
+	color:#000;
+	
+}
+.pager ul li a.current
+{
+	color:#888;
+	font-weight:bold;
+}
+
+/* ************************** Корзина ************************** */
+.basket
+{
+    margin-left:70px;
+  
+}
+
+.basket .basketItems
+{
+      margin-top:20px;
+    border:#000 1px solid;
+}
+.basket .basketItems th
+{
+    padding:2px 10px;
+}
+.basket .basketItems td
+{
+    padding:2px 10px;
+}
+.basket .basketItems td.c1
+{
+    min-width:300px;
+}
+
+.basket .basketItems td.c2,
+.basket .basketItems td.c3
+{
+     text-align:center;
+}
+
+.basket .basketItems td.c4
+{
+    text-align:right;
+}
+.basket .basketItems .summary
+{
+    text-align:center;
+}
+.basket .basketItems .summaryPrice
+{
+    font-weight:bold;
+    text-align:right;
+}
+
+.basket .contactDataTitle
+{
+    margin:20px 0;
+}
+.basket .contactData
+{
+}
+
+.basket .contactData th
+{
+    vertical-align:top;
+    padding:2px 20px;
+}
+.basket .contactData input
+{
+    width:200px;
+}
+.basket .contactData textarea
+{
+    width:200px;
+    height:50px;
+}
+
+
+.basket #submit
+{
+    cursor:pointer;
+	width:150px;
+	height:25px;
+	border:1px solid #000;
+	color:#fff;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius:5px;
+	border-radius: 5px;
+	
+	margin:0 0 0 auto;
+	text-align:center;
+	display:block;
+	 background: url(img/button4.png) no-repeat right top;
+}
+.basket #submit:hover
+{
+    background: url(img/button4_blured.png) no-repeat right top;
+}

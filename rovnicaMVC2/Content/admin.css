@@ -1,0 +1,260 @@
+ /* Основной каркас*/
+ ul, li
+ {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ 
+ #top_menu
+ {
+ 	height:30px;
+ 	border-bottom:2px solid #009;
+ 	margin-bottom:5px;
+ }
+ 
+ #top_menu ul
+ {
+ 	list-style:none;
+ }
+ #top_menu ul li
+ {
+ 	float:left;
+ 	display:block;
+ 	padding: 0 20px;
+ }
+  #top_menu ul li a
+  {
+  	color:#555;
+  }
+ 
+
+ /* */
+ 
+  /* Список категорий*/
+ ul.categories
+ {
+ 	border:1px solid #009;
+ 	width:250px;
+ 	list-style:none;
+ 	float:left;
+ 	margin-right:10px;
+ 	
+ }
+ul.categories li
+{
+padding: 0 20px;
+}
+
+ul.categories li a
+{
+	color:#555;
+}
+
+/* Товары */
+.categoryItems
+{
+	border:1px solid #009;
+	border-collapse:collapse;
+}
+.categoryItems td
+{
+	padding:0px 10px;
+}
+
+/* Форма создания нового товара (базовые пар-ры)*/
+.createNewItem
+{
+	border:1px solid #009;
+	padding:5px;
+	width:400px;
+}
+.createNewItem .title
+{
+	font-weight:bold;
+}
+.createNewItem table th
+{
+	text-align:right;
+	padding-right:10px;
+}
+.createNewItem .help_comment
+{
+	font-size:10px;
+	color:#aaa;
+}
+
+/* Заказы*/
+ 
+ .orders{}
+
+ .orders .orderDetails 
+{
+	border:1px solid #000;
+    width:100%;
+    display:none;
+}
+ .orders .details 
+{
+	border:1px solid #000;
+    width:100%;
+    display:none;
+}
+ /* Доп параметры по товару (редактирование) */
+#itemDetails
+{
+	position:absolute;
+	top:50px;
+	left: 50%;
+	margin-left: -400px;
+	width:800px;
+	height:800px;
+	border:1px solid #000;
+	
+	background:#ccc;
+	overflow:auto;
+}
+#itemDetails .title
+{
+	font-weight:bold;
+}
+/* табы */
+#itemDetails .tabList
+{
+	height:35px;
+	margin-top:10px;
+}
+#itemDetails .tabList ul
+{
+	list-style:none;
+	
+	margin-left:30px;
+}
+
+#itemDetails .tabList ul li
+{
+	float:left;
+	border:1px solid #000;
+	border-bottom: 0px;
+	padding:5px 10px;
+	margin-left:4px;
+	cursor:pointer;
+}
+#itemDetails .tabList ul li.selected
+{
+	border:2px solid #000;
+	border-bottom: 0px;
+}
+
+#itemDetails .tab
+{
+	display:none;
+}
+#itemDetails .tab.selected
+{
+	display:block;
+}
+
+/*Блок с картинками-изображениями товара*/
+#itemDetails #itemImagesHolder
+{
+	width:800px;
+	height:500px;
+	overflow:auto;
+	
+	background:#fff;
+	/*height: 100px; временно*/
+}
+
+#itemDetails #itemImagesHolder .resultImg
+{
+	width:100px;
+	border:1px solid #000;
+	min-height:100px;
+}
+#itemDetails #itemImagesHolder #itemImages
+{
+	border-collapse:collapse;
+}
+#itemDetails #itemImagesHolder #itemImages td
+{
+	vertical-align:top;
+	padding:1px;
+}
+#itemDetails #itemImagesHolder #itemImages .imgTemplate
+{
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+
+#itemDetails #itemImagesHolder .imgTemplate .imgNumber
+{
+	text-align:right;
+	padding-right:5px;
+}
+#itemDetails #itemImagesHolder .imgTemplate input[type=file]
+{
+	width:110px;
+}
+/* Блок с данными по товару*/
+#itemDetailsHolder
+{
+	border:1px solid #000;
+}
+
+#itemDetailsHolder .params
+{
+	width:100%;
+}
+#itemDetailsHolder .params th
+{
+	text-align:right;
+	padding-right: 10px;
+	vertical-align:top;
+}
+
+#itemDetails .reviewImg{ max-height:100px; max-width:100px;}
+
+#itemDetailsHolder #tbName {width:300px;}
+#itemDetailsHolder #ddlCategory {width:200px;}
+#itemDetailsHolder #tbPrice {width:100px;}
+#itemDetailsHolder #tbPriceOpt {width:100px;}
+#itemDetailsHolder #tbDescriptionCommon {width:300px; height:80px;}
+#itemDetailsHolder #tbDescriptionMaterial {width:300px;  height:80px;}
+
+#itemDetailsHolder #ddlStatus {width:200px;}
+
+#itemDetailsHolder .params #tbAddColor,
+#itemDetailsHolder .params #tbAddSize
+{
+	width:135px;
+}
+
+#itemDetailsHolder .params input[type=button]
+{
+	width:30px;
+}
+
+#itemDetailsHolder .params #lbColors,
+#itemDetailsHolder .params #lbSizes
+{
+	width:200px;
+	height:80px;
+}
+
+#itemDetails #btnCloseItemDetails
+{
+	position:absolute;
+	top:5px;
+	right: 5px;
+}
+
+/* Склад*/
+#warehouseTotalAmount input[type=text]
+{
+	width:50px;
+}
+
+#warehouseTotalAmount table td{padding:5px 10px;}
+#warehouseTotalAmount table th{padding:5px 10px;}
+#warehouseTotalAmount table th.color{text-align:right;}
+

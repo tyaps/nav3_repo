@@ -1,0 +1,65 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+
+
+	<meta name="Robots" content="all"/>
+
+    <link href="<%=Url.Content("~/Content/admin.css" ) %>" rel="stylesheet" type="text/css" />
+       
+    
+    <script src="<%=Url.Content("~/Scripts/plugins/jquery-1.4.1.min.js") %>" type="text/javascript" language="javascript"></script>
+    <script src="<%=Url.Content("~/Scripts/plugins/jquery.form.js") %>" type="text/javascript" language="javascript"></script>
+    <script src="<%=Url.Content("~/Scripts/plugins/highslide-full.min.js") %>" type="text/javascript" language="javascript"></script>
+    <script src="<%=Url.Content("~/Scripts/admin.js" ) %>" type="text/javascript" language="javascript"></script>
+    
+    <script type="text/javascript" language="javascript">
+        hs.graphicsDir = '<%=Url.Content("~/Content/img/highslide/" ) %>';
+        hs.showCredits = false;
+        hs.lang.loadingText = "Загрузка...";
+        hs.blockRightClick = true;
+        hs.restoreTitle = "";
+        
+        hs.targetX = 'main_content 20px'; //будет переопределен при клике с rand()
+        hs.targetY = 'main_content 20px'; //будет переопределен при клике
+
+
+        var saveOrderUrl = "<%=Url.Action("saveOrderDetails")%>";
+        var createNewItemUrl = "<%=Url.Action("createNewItem")%>";
+        var itemDetailsUrl = "<%=Url.Action("itemDetails")%>";
+        var addMoreImageTemplateUrl = "<%=Url.Action("addMoreImageTemplate")%>";
+        var saveItemDetailsUrl = "<%=Url.Action("saveItemDetails")%>";
+        var warehouseTotalAmountUrl = "<%=Url.Action("warehouseTotalAmount")%>";
+        var warehouseTotalAmountUpdateUrl = "<%=Url.Action("warehouseTotalAmountUpdate")%>";
+        
+        
+        var imgPath = "<%=Url.Content("~/Content/i/") %>";
+        
+  
+    </script>
+    
+    
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="top_menu">
+<% Html.RenderPartial("admin_menu"); %>
+
+</div>
+
+<div id="main_content">
+<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+</div>
+
+
+</div>
+    
+</body>
+</html>

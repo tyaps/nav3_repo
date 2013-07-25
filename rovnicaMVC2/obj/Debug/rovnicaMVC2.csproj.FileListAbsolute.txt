@@ -1,0 +1,37 @@
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\FluentNHibernate.xml
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\NHibernate.xml
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\rovnicaMVC.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\rovnicaMVC.pdb
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\obj\Debug\rovnicaMVC.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\obj\Debug\rovnicaMVC.pdb
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\log4net.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\Antlr3.Runtime.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\Castle.Core.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\FluentNHibernate.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\Iesi.Collections.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\NHibernate.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\Remotion.Data.Linq.dll
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\log4net.xml
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\NHibernate.ByteCode.Castle.pdb
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\NHibernate.ByteCode.Castle.xml
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\FluentNHibernate.pdb
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\Iesi.Collections.pdb
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\Iesi.Collections.xml
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\NHibernate.pdb
+C:\Users\family\Documents\Visual Studio 2008\Projects\rovnicaMVC2\rovnicaMVC2\bin\Castle.Core.xml
+C:\rovnicaMVC2\rovnicaMVC2\bin\rovnicaMVC.dll
+C:\rovnicaMVC2\rovnicaMVC2\bin\rovnicaMVC.pdb
+C:\rovnicaMVC2\rovnicaMVC2\bin\log4net.dll
+C:\rovnicaMVC2\rovnicaMVC2\bin\log4net.xml
+C:\rovnicaMVC2\rovnicaMVC2\obj\Debug\ResolveAssemblyReference.cache
+C:\rovnicaMVC2\rovnicaMVC2\obj\Debug\rovnicaMVC.dll
+C:\rovnicaMVC2\rovnicaMVC2\obj\Debug\rovnicaMVC.pdb
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\bin\rovnicaMVC.dll
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\bin\rovnicaMVC.pdb
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\bin\log4net.dll
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\bin\log4net.xml
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\obj\Debug\rovnicaMVC.dll
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\obj\Debug\rovnicaMVC.pdb

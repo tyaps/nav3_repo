@@ -1,0 +1,6 @@
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\bin\rovnicaMVC.dll
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\bin\rovnicaMVC.pdb
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\bin\log4net.xml
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\obj\Debug\rovnicaMVC.dll
+C:\Users\Tyaps\Documents\Visual Studio 2008\Projects\Navalny3\rovnicaMVC2\obj\Debug\rovnicaMVC.pdb
